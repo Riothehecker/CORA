@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CustomerIQ - Post-Purchase Intelligence</title>
+  <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@babel/standalone@7.23.5/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/recharts@2.12.0/umd/Recharts.js"></script>
+  <style>
+    .whatsapp-dark-bg-webkit-scrollbar { width: 6px; }
+    .-webkit-scrollbar-track { background: #1F2C34; }
+    .-webkit-scrollbar-thumb { background: #2A3F4A; border-radius: 3px; }
+    .whatsapp-dark { background-color: #0B141A; }
+    .bubble-customer { background-color: #FFFFFF; color: #0B141A; align-self: flex-end; }
+    .bubble-ai { background-color: #025C4C; color: #FFFFFF; align-self: flex-start; }
+    .chat-container { height: 400px; overflow-y: auto; }
+    .badge-positive { background-color: #128C7E; color: white; }
+    .badge-neutral { background-color: #F0B232; color: #0B141A; }
+    .badge-negative { background-color: #E53E3E; color: white; }
+    .badge-high { background-color: #2563EB; color: white; }
+    .badge-medium { background-color: #F59E0B; color: white; }
+    .badge-low { background-color: #EF4444; color: white; }
+    .status-active { background-color: #22C55E; color: white; }
+    .status-completed { background-color: #3B82F6; color: white; }
+    .status-abandoned { background-color: #9CA3AF; color: white; }
+    .sidebar-overlay { background: rgba(0,0,0,0.5); }
+    .modal-overlay { background: rgba(0,0,0,0.7); }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div id="root"></div>
+  
+  <script type="text/babel" src="/js/App.jsx"></script>
+</body>
+</html>
